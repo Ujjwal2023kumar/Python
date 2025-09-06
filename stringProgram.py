@@ -1,0 +1,53 @@
+s = "hello world"
+s2 = "Python123"
+s3 = "   spaced   "
+s4 = "HELLO"
+s5 = "hello"
+s6 = "12345"
+
+print("capitalize():", s.capitalize())
+print("casefold():", "ß".casefold())  # German sharp S
+print("center():", s.center(20, "-"))
+print("count():", s.count("l"))
+print("encode():", s.encode())
+print("endswith():", s.endswith("world"))
+print("expandtabs():", "a\tb\tc".expandtabs(4))
+print("find():", s.find("world"))
+print("format():", "My name is {}".format("Ujjwal"))
+print("format_map():", "{name} is {age}".format_map({"name": "Ujjwal", "age": 22}))
+print("index():", s.index("world"))
+print("isalnum():", s2.isalnum())
+print("isalpha():", s5.isalpha())
+print("isascii():", s.isascii())
+print("isdecimal():", s6.isdecimal())
+print("isdigit():", s6.isdigit())
+print("isidentifier():", "var_1".isidentifier())
+print("islower():", s5.islower())
+print("isnumeric():", "Ⅻ".isnumeric())  # Roman numeral 12
+print("isprintable():", "Hello\n".isprintable())
+print("isspace():", "   ".isspace())
+print("istitle():", "Hello World".istitle())
+print("isupper():", s4.isupper())
+print("join():", "-".join(["a", "b", "c"]))
+print("ljust():", s.ljust(15, "*"))
+print("lower():", s4.lower())
+print("lstrip():", s3.lstrip())
+print("maketrans() + translate():", "hello".translate(str.maketrans({"h":"H","e":"E"})))
+print("partition():", s.partition(" "))
+print("removeprefix():", "TestString".removeprefix("Test"))
+print("removesuffix():", "TestString".removesuffix("String"))
+print("replace():", s.replace("world", "Python"))
+print("rfind():", s.rfind("l"))
+print("rindex():", s.rindex("l"))
+print("rjust():", s.rjust(15, "*"))
+print("rpartition():", s.rpartition(" "))
+print("rsplit():", s.rsplit(" ", 1))
+print("rstrip():", s3.rstrip())
+print("split():", s.split(" "))
+print("splitlines():", "line1\nline2\nline3".splitlines())
+print("startswith():", s.startswith("hello"))
+print("strip():", s3.strip())
+print("swapcase():", "Hello World".swapcase())
+print("title():", s.title())
+print("upper():", s5.upper())
+print("zfill():", "42".zfill(5))
