@@ -41,3 +41,9 @@ print("Where arr1 is even:", np.where(arr1 % 2 == 0))
 # Searchsorted (returns index to maintain sorted order)
 print("Searchsorted 6:", np.searchsorted(arr1, 6))
 print("Searchsorted 3:", np.searchsorted(arr1, 3))
+
+#Aggregating functions
+print("Sum: ", np.sum(arr1))
+print("Max: ", np.max(arr1))
+print("Min: ", np.min(arr1))
+print("Size: ", np.size(arr1))
