@@ -56,6 +56,8 @@ print("Mean: ", np.mean(arr1))
 print("Median: ", np.median(arr1))
 print("Mode: ", stats.mode(arr4))
 print("Standard Deviation: ", np.std(arr1))
+print(np.corrcoef([arr1, arr2]))
+
 
 
 
