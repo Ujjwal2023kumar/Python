@@ -48,4 +48,6 @@ print("Max: ", np.max(arr1))
 print("Min: ", np.min(arr1))
 print("Size: ", np.size(arr1))
 print("Cumsum: ", np.cumsum(arr1))
+print("Cumsum of 2 Arrays: ", np.cumsum([arr1, arr2]))
 print("Cumprod: ", np.cumprod(arr1))
+
