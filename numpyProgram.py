@@ -1,8 +1,10 @@
 import numpy as np
+import statistics as stats
 
 arr1 = np.array([1, 2, 3, 4, 5])
 arr2 = np.array([6, 7, 8, 9, 10])
 arr3 = np.array([50, 40, 30, 10])
+arr4 = np.array([1,2,2,3,3,3,4,4,4,4])
 
 print("Add:", np.add(arr1, arr2))
 print("Subtract:", np.subtract(arr1, arr2))
@@ -50,4 +52,7 @@ print("Size: ", np.size(arr1))
 print("Cumsum: ", np.cumsum(arr1))
 print("Cumsum of 2 Arrays: ", np.cumsum([arr1, arr2]))
 print("Cumprod: ", np.cumprod(arr1))
+print("Mean: ", np.mean(arr1))
+print("Median: ", np.median(arr1))
+print("Mode: ", stats.mode(arr4))
 
